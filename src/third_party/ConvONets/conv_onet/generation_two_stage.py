@@ -95,11 +95,7 @@ class Generator3D(object):
         self.model.eval()
         device = self.device
         stats_dict = {}
-
         kwargs = {}
-
-        t0 = time.time()
-
         t0 = time.time()
         with torch.no_grad():
             c = self.model.encode_inputs(data["pc_start"], data["pc_end"])

@@ -1,4 +1,4 @@
-name: Ditto
+name: ditto
 
 channels:
   - pytorch

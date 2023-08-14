@@ -140,9 +140,11 @@ dmypy.json
 .idea/
 
 # Lightning-Hydra-Template
+pretrained/
 data/
 logs/
 wandb/
 .env
 .autoenv
 data
+test_results/
